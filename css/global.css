@@ -18,4 +18,8 @@
     --black: #000000;
     --blue: #1B77F3;
     --red: #CF3C3F;
-  }
+}
+
+main {
+    display: flex;
+}
