@@ -5,7 +5,6 @@
     align-items: center;
     width: 100%;
     max-width: 500px;
-    min-height: 100vh;
     padding: clamp(35px, 8%, 70px);
     /* background-color: red; */
 }
