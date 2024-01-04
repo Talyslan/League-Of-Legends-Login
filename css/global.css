@@ -20,10 +20,10 @@
     --red: #CF3C3F;
 }
 
-body {
-    height: 100vh;
-}
-
 main {
     display: flex;
+}
+
+.disappear {
+    display: none;
 }

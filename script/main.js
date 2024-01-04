@@ -1,6 +1,9 @@
 const inputs = document.querySelectorAll(".input");
 const btn = document.querySelectorAll("button")[3];
-console.log(btn)
+const video = document.querySelectorAll("video")[0];
+const checkboxVideo = document.querySelectorAll("input[type='checkbox']")[1];
+console.log(checkboxVideo)
+console.log(video)
 
 const handleFocus = ({ target }) => {
     const span = target.previousElementSibling;
@@ -25,9 +28,17 @@ const handleChange = () => {
     } 
 };
 
+const changeAnimation = ({ target }) => {
+    if (target.checked) {
+        video.classList.remove("disappear");
+    }
+    else {
+        video.classList.add("disappear");
+    }
+};
+
 
 inputs.forEach(i => i.addEventListener("focus", handleFocus));
-
 inputs.forEach(i => i.addEventListener("focusout", handleFocusOut));
-
 inputs.forEach(i => i.addEventListener("input", handleChange));
+checkboxVideo.addEventListener("change", changeAnimation)

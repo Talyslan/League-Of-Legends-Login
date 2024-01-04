@@ -5,31 +5,32 @@
     align-items: center;
     width: 100%;
     max-width: 500px;
-    padding: clamp(35px, 8%, 70px);
-    /* background-color: red; */
+    padding: clamp(40px, 8%, 70px);
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
 }
 
-.loginSide .wrapper > img {
-    width: 130px;
-    margin-bottom: 80px;
+.loginSide > img {
+    width: 30%;
+    margin-bottom: 20%;
 }
 
-.loginSide .wrapper  > h1 {
+.loginSide  > h1 {
     color: var(--deep-grey);
-    font-size: 1.5em;
-    margin-bottom: 30px;
+    font-size: 1.3rem;
+    margin-bottom: 10%;
 }
 
 .labelLogin {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
     width: 100%;
+
 }
 
 .labelLogin input {
@@ -37,8 +38,7 @@
     background: var(--light-grey);
     border-radius: 5px;
     outline: none;
-    font-size: .9em;
-    padding: 25px 10px 10px;
+    padding: 20px 12px 12px;
     font-weight: 600;
     color: var(--deep-grey);
     border: 2px solid transparent;
@@ -51,7 +51,7 @@
 
 .labelLogin span {
     position: absolute;
-    font-size: .8em;
+    font-size: .7em;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--medium-grey);
@@ -61,8 +61,8 @@
 }
 
 .labelLogin > .spanActive {
-    font-size: .7em;
-    margin: 8px 10px;
+    font-size: .6em;
+    margin: 8px 12px;
 }
 
 .iconsLogin {
@@ -73,15 +73,15 @@
 }
 
 .iconsLogin img {
-    width: 20px;
+    width: 15%;
 }
 
 .iconsLogin button {
-    width: 33.33%;
+    width: calc(100% / 3);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 35px;
+    height: 32px;
     border-radius: 5px;
     cursor: pointer;
     border: none;
@@ -99,8 +99,8 @@
 
 .labelCheckbox {
     width: 100%;
-    margin: 15px 0 50px;
-    font-size: .9em;
+    margin: 15px 0;
+    font-size: .7rem;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -131,21 +131,22 @@
 }
 
 .btnLogin button {
-    width: 60px;
-    height: 60px;
-    padding: 20px;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: var(--red);
-    border-radius: 20px;
+    border-radius: 16px;
     border: none;
     cursor: pointer;
-    margin-bottom: 60px;
+    margin:35px 20%;
 }
 
 .btnLogin svg {
     fill: white;
+    width: 14px;
 }
 
 .btnLogin button:disabled {
@@ -159,7 +160,7 @@
 }
 
 .link {
-    font-size: .8em;
+    font-size: .6em;
     text-decoration: none;
     color: var(--medium-grey);
     text-transform: uppercase;
