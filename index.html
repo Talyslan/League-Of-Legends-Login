@@ -1,79 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./images/favicon.ico">
 
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/imgSide.css">
-    <link rel="stylesheet" href="./css/loginSide.css">
-    <title>League Of Legends</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/favicon.ico">
+
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/imgSide.css">
+  <link rel="stylesheet" href="./css/loginSide.css">
+  <title>League Of Legends</title>
 </head>
+
 <body>
 
-    <main>
-        <section class="loginSide">
-                <img src="./images/riot.png" alt="Logo Riot Games">
-        
-                <h1>Fazer login</h1>
-            
-                <label for="username" class="labelLogin">
-                  <span>nome de usuário</span>
-                  <input type="text" id="username" class="input">
-                </label>
-          
-                <label for="password" class="labelLogin">
-                  <span>senha</span>
-                  <input type="password" id="password" class="input">
-                </label>
-          
-                <div class="iconsLogin">
-                  <button type="button">
-                    <img src="./images/facebook.png" alt="facebok icon">
-                  </button>
-          
-                  <button type="button">
-                    <img src="./images/google.png" alt="google icon">
-                  </button>
-          
-                  <button type="button">
-                    <img src="./images/apple.png" alt="apple icon">
-                  </button>
-                </div>
-          
-                <label class="labelCheckbox">
-                  <input type="checkbox">
-                  <span>Manter login</span>
-                </label>
-        
-              <div class="wrapper btnLogin">
-                <button type="button" disabled>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/>
-                  </svg>
-                </button> 
-                
-                <a href="#" class="link">não consegue iniciar sessão?</a>
-                <a href="#" class="link">criar conta</a>
-              </div>
+  <main>
+    <section class="loginSide">
+      <img src="./images/riot.png" alt="Logo Riot Games">
 
-              <label class="labelCheckbox">
-                <input type="checkbox">
-                <span>Desativar animação</span>
-              </label>
-        </section>
+      <h1>Fazer login</h1>
 
-        <section class="imgSide">
-          <video autoplay loop>
-            <source src="images/jinx-live-wallpaper.mp4" type="video/mp4">
-          </video>
-        </section>
+      <label for="username" class="labelLogin">
+        <span>nome de usuário</span>
+        <input type="text" id="username" class="input">
+      </label>
 
-        
-    </main>
+      <label for="password" class="labelLogin">
+        <span>senha</span>
+        <input type="password" id="password" class="input">
+        <img src="./images/password/VisiblePassword.png" class="disappear" alt="password image">
+      </label>
 
-    <script src="script/main.js"></script>
+      <div class="iconsLogin">
+        <button type="button">
+          <img src="./images/midias-icon/facebook.png" alt="facebok icon">
+        </button>
+
+        <button type="button">
+          <img src="./images/midias-icon/google.png" alt="google icon">
+        </button>
+
+        <button type="button">
+          <img src="./images/midias-icon/apple.png" alt="apple icon">
+        </button>
+      </div>
+
+      <label class="labelCheckbox">
+        <input type="checkbox">
+        <span>Manter login</span>
+      </label>
+
+      <div class="wrapper btnLogin">
+        <button type="button" disabled>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+              d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z" />
+          </svg>
+        </button>
+
+        <a href="#" class="link">não consegue iniciar sessão?</a>
+        <a href="#" class="link">criar conta</a>
+      </div>
+
+
+    </section>
+
+    <section class="imgSide">
+      <video autoplay loop>
+        <source src="images/jinx-live-wallpaper.mp4" type="video/mp4">
+      </video>
+      <label class="labelCheckbox">
+        <input type="checkbox">
+        <span>Desativar animação</span>
+      </label>
+    </section>
+
+
+  </main>
+
+  <script src="script/main.js"></script>
 </body>
+
 </html>

@@ -30,6 +30,7 @@
     display: block;
     margin-bottom: 1em;
     width: 100%;
+    position: relative;
 
 }
 
@@ -58,6 +59,18 @@
     margin: 20px;
     cursor: text;
     transition: all 200ms ease;
+}
+
+.labelLogin img {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 28px;
+    opacity: .8;
+}
+
+.labelLogin img:hover {
+    cursor: pointer;
 }
 
 .labelLogin > .spanActive {
