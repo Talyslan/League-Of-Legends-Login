@@ -4,8 +4,6 @@ const passwordImg = password.nextElementSibling;
 const btn = document.querySelectorAll("button")[3];
 const video = document.querySelectorAll("video")[0];
 const checkboxVideo = document.querySelectorAll("input[type='checkbox']")[1];
-// console.log(checkboxVideo)
-// console.log(video)
 
 //Add class that makes span is Active
 const handleFocus = ({ target }) => {
@@ -37,9 +35,6 @@ const handleChange = () => {
 };
 
 const changeAnimation = ({ target }) => {
-    console.log("evento ativado")
-    console.log(target.checked)
-
     if (target.checked) {
         video.classList.add("disappear");
     }
