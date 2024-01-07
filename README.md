@@ -1,10 +1,10 @@
 <h1 align="center"> League Of Legends - Login</h1>
 
-<img height="500" src="" alt="Layout no Computador" />
-<img height="500" src="" alt="Layout no Celular 1" /> 
+<img height="500" src="https://github.com/Talyslan/League-Of-Legends-Login/assets/78499700/acc86d5a-e38e-472e-b8d6-2547c46ff08d" alt="Layout no Computador" />
+<img height="500" src="https://github.com/Talyslan/League-Of-Legends-Login/assets/78499700/72cd2915-a3b9-4ff2-a651-5700bcb87bc1" alt="Layout no Celular 1" /> 
 
 ## 🛸 O Projeto
-<img height="200" src="" alt="gif" />
+<img height="200" src="https://64.media.tumblr.com/6137432f36f51bdeb108855ef71df75c/4202203ae19a40f8-a4/s540x810/341ab1b78c070b477839fa9bedfc5682524d6bd6.gif" alt="gif" />
 
 <blockquote>Para quem ama um lolzinho!</blockquote>
 
