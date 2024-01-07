@@ -2,8 +2,8 @@ const inputs = document.querySelectorAll(".input");
 const btn = document.querySelectorAll("button")[3];
 const video = document.querySelectorAll("video")[0];
 const checkboxVideo = document.querySelectorAll("input[type='checkbox']")[1];
-console.log(checkboxVideo)
-console.log(video)
+// console.log(checkboxVideo)
+// console.log(video)
 
 const handleFocus = ({ target }) => {
     const span = target.previousElementSibling;
@@ -29,11 +29,14 @@ const handleChange = () => {
 };
 
 const changeAnimation = ({ target }) => {
+    console.log("evento ativado")
+    console.log(target.checked)
+
     if (target.checked) {
-        video.classList.remove("disappear");
+        video.classList.add("disappear");
     }
     else {
-        video.classList.add("disappear");
+        video.classList.remove("disappear");
     }
 };
 
