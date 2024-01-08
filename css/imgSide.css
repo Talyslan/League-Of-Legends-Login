@@ -25,3 +25,12 @@
 .imgSide .labelCheckbox span {
     color: var(--white);
 }
+
+.imgSide img {
+    width: 32px;
+    filter: invert();
+    position: absolute;
+    bottom: 44px;
+    left: 12px;
+    cursor: pointer;
+}

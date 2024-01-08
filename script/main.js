@@ -4,6 +4,8 @@ const passwordImg = password.nextElementSibling;
 const btn = document.querySelectorAll("button")[3];
 const video = document.querySelectorAll("video")[0];
 const checkboxVideo = document.querySelectorAll("input[type='checkbox']")[1];
+const soundImg = document.querySelector("#soundImg");
+const soundAudio = document.querySelector("audio");
 
 //Add class that makes span is Active
 const handleFocus = ({ target }) => {
@@ -54,8 +56,28 @@ const changePasswordType = ({ target }) => {
     }
 };
 
+const handleSound = () => {
+    const bool = soundImg.getAttribute("src") === "images/soundImg/volume.png"
+    console.log(bool)
+
+    if (bool) {
+        soundImg.src = "images/soundImg/muted.png"
+        soundAudio.setAttribute("muted", true);
+    }
+    else {
+        soundImg.src = "images/soundImg/volume.png"
+        soundAudio.setAttribute("muted", false);
+    }
+
+    console.log("clicado")
+}
+
 inputs.forEach(i => i.addEventListener("focus", handleFocus));
 inputs.forEach(i => i.addEventListener("focusout", handleFocusOut));
 inputs.forEach(i => i.addEventListener("input", handleChange));
+
 checkboxVideo.addEventListener("change", changeAnimation);
+
 passwordImg.addEventListener("click", changePasswordType);
+
+soundImg.addEventListener("click", handleSound);
