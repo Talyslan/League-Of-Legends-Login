@@ -36,6 +36,7 @@ const handleChange = () => {
     } 
 };
 
+//Remove or Start animation
 const changeAnimation = ({ target }) => {
     if (target.checked) {
         video.classList.add("disappear");
@@ -45,6 +46,7 @@ const changeAnimation = ({ target }) => {
     }
 };
 
+// Change visualization of password
 const changePasswordType = ({ target }) => {
     if (password.type === "password") {
         password.type = "text";
@@ -56,20 +58,18 @@ const changePasswordType = ({ target }) => {
     }
 };
 
+// Change sound option
 const handleSound = () => {
     const bool = soundImg.getAttribute("src") === "images/soundImg/volume.png"
-    console.log(bool)
 
     if (bool) {
         soundImg.src = "images/soundImg/muted.png"
-        soundAudio.setAttribute("muted", true);
+        soundAudio.pause();
     }
     else {
         soundImg.src = "images/soundImg/volume.png"
-        soundAudio.setAttribute("muted", false);
+        soundAudio.play();
     }
-
-    console.log("clicado")
 }
 
 inputs.forEach(i => i.addEventListener("focus", handleFocus));
@@ -81,3 +81,4 @@ checkboxVideo.addEventListener("change", changeAnimation);
 passwordImg.addEventListener("click", changePasswordType);
 
 soundImg.addEventListener("click", handleSound);
+document.addEventListener('DOMContentLoaded', () => soundAudio.play());
