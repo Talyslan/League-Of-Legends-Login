@@ -1,6 +1,6 @@
 <h1 align="center"> League Of Legends - Login</h1>
 
-<img height="500" src="https://github.com/Talyslan/League-Of-Legends-Login/assets/78499700/acc86d5a-e38e-472e-b8d6-2547c46ff08d" alt="Layout no Computador" />
+<img height="500" src="https://github.com/Talyslan/League-Of-Legends-Login/assets/78499700/8eb7c96c-91ce-4c1d-9840-5dcee98d3025" alt="Layout no Computador" />
 <img height="500" src="https://github.com/Talyslan/League-Of-Legends-Login/assets/78499700/72cd2915-a3b9-4ff2-a651-5700bcb87bc1" alt="Layout no Celular 1" /> 
 
 ## 🛸 O Projeto
