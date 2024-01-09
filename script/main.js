@@ -81,4 +81,4 @@ checkboxVideo.addEventListener("change", changeAnimation);
 passwordImg.addEventListener("click", changePasswordType);
 
 soundImg.addEventListener("click", handleSound);
-document.addEventListener('DOMContentLoaded', () => soundAudio.play());
+document.addEventListener('DOMContentLoaded', () => soundAudio.pause());
